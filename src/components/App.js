@@ -3,6 +3,10 @@ import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import MoviesPage from "./MoviesPage";
 
+
+
+
+
 function App() {
   const [movies, setMovies] = useState([
     { id: 1, title: "A River Runs Through It" },
